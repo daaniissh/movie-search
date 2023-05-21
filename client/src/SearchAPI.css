@@ -1,0 +1,55 @@
+.list-parent .list-sub-parent-two{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* max-width: 270px; */
+  width: 100%;
+}
+.list-parent .list-sub-parent-two:hover{
+ background: #7c7c7c5d;
+ border-radius: 10px;
+ cursor: pointer;
+ transition: background 0.5s ease;
+ /* padding: 0px 1px; */
+}
+.list-parent .list-sub-parent-two img{
+ width: 80px;
+ margin-left: 4px;
+ margin-bottom: 10px;
+ padding: 3px;
+object-fit: cover;
+border-radius: 10px;
+ height: 80px;
+}
+.list-sub-parent-two{
+    display: flex;
+  align-items: center;
+  width: 400px;  
+  max-width: 390px;
+}
+.list-parent .list-sub-parent-two h5{
+  margin-left: 10px;
+  cursor: pointer;
+}
+.list-parent .list-sub-parent-two .content{
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: space-between;
+width: 100%;
+}
+.list-parent .list-sub-parent-two p{
+  background: #6e6e6e;
+  color: #ffffff;
+  padding: 5px 8px;
+  height: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.dim{
+  color: rgba(129, 129, 129, 0.322);
+}
+.dim span{
+  color: rgba(255, 34, 34, 0.555);
+}
